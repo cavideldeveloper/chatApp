@@ -1,7 +1,7 @@
 <div class=" h-screen" x-data="{ currentTab: @entangle('currentTab') }" >
     {{-- To attain knowledge, add things every day; To attain wisdom, subtract things every day. --}}
     <div style=" height:95%" class="flex flex-row antialiased text-gray-800">
-    <div class="flex flex-row w-96 flex-shrink-0 bg-gray-100 pr-4">
+    <div class="flex flex-row w-96 flex-shrink-0 bg-gray-100 pr-4 overflow-y-auto">
       {{-- <div class="flex flex-col items-center py-4 flex-shrink-0 w-20 bg-indigo-800">
         <a href="#" class="flex items-center justify-center h-12 w-12 bg-indigo-100 text-indigo-800 rounded-full">
           <svg class="w-8 h-8"
