@@ -1,0 +1,27 @@
+{
+    "name": "cavideldeveloper/chatapp",
+    "description": "Livewire chat package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Otusanya",
+            "email": "michaelotusanya@gmail.com"
+        }
+    ],
+    "require": {
+        "pusher/pusher-php-server": "^3.2",
+        "livewire/livewire": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cavideldeveloper\\ChatApp\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cavideldeveloper\\ChatApp\\ChatAppServiceProvider"
+            ]
+        }
+    }
+}
