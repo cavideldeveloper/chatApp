@@ -221,7 +221,7 @@
         </div>
 
 
-        <div x-show="currentTab == 2" class=" ">
+        <div  style="display: none" x-show="currentTab == 2" class=" ">
           {{-- <button class=" text-sm text-indigo-800 text-center mt-5 w-full focus:outline-none">Create Group</button> --}}
           <div class="mt-5">
               <div class="text-xs text-gray-400 font-semibold uppercase">All Groups</div>
@@ -289,7 +289,7 @@
         </div>
 
 
-        <div x-show="currentTab == 3">
+        <div style="display: none" x-show="currentTab == 3">
             <div class="mt-5">
                 <div class="text-xs text-gray-400 font-semibold uppercase">All Users</div>
             </div>

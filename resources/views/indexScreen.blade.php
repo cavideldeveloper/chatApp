@@ -19,7 +19,6 @@
 {{-- <div style="top: -95px;" class=" absolute left-0 right-0 z-20"> --}}
     <main >
         @livewire('chat')
-        <h1>This Worked</h1> 
     </main>
 {{-- </div> --}}
 
